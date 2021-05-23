@@ -1,0 +1,7 @@
+{
+  "name": "master-lock",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
