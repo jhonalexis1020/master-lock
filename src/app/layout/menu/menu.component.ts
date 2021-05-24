@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MENU } from 'src/app/core/model/common/menu';
 
 @Component({
   selector: 'app-menu',
@@ -7,14 +8,8 @@ import { Component } from '@angular/core';
 })
 export class MenuComponent {
 
-  public appPages = [
-    { title: 'Inbox', url: '/folder/Inbox', icon: 'mail' },
-    { title: 'Outbox', url: '/folder/Outbox', icon: 'paper-plane' },
-    { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
-    { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
-    { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
-    { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
-  ];
+  //Const
+  Menu = MENU;
 
   constructor() { }
 
